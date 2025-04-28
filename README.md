@@ -83,7 +83,7 @@
 
 1. Create a .NET Solution:
 
-    Use the latest .NET Framework version.
+    Use the latest .NET version.
     Implement the solution using C#.
 
 2. Project Structure:
