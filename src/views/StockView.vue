@@ -5,8 +5,8 @@ const value = ref('')
 </script>
 
 <template>
-  <div>
+  <div class="p-4">
     <UInput v-model="value" placeholder="Enter stock ticket"></UInput>
-    <MainTable></MainTable>
   </div>
+  <MainTable></MainTable>
 </template>

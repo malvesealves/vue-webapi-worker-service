@@ -17,6 +17,8 @@ const items = ref<BreadcrumbItem[]>([
 </script>
 
 <template>
-  <UNavigationMenu color="neutral" variant="link" :items="items" class="w-full" />
-  <USeparator />
+  <div class="w-full">
+    <UNavigationMenu color="neutral" variant="link" :items="items" />
+    <USeparator />
+  </div>
 </template>

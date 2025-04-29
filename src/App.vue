@@ -5,9 +5,7 @@ import NavigationMenu from './components/NavigationMenu.vue'
 
 <template>
   <NavigationMenu></NavigationMenu>
-  <UApp>
-    <RouterView />
-  </UApp>
+  <RouterView />
 </template>
 
 <style scoped>

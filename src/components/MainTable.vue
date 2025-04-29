@@ -108,11 +108,12 @@ const globalFilter = ref('')
 </script>
 
 <template>
-  <div class="flex flex-col flex-1 w-full">
-    <div class="flex px-4 py-3.5 border-b border-accented">
-      <UInput v-model="globalFilter" class="max-w-sm" placeholder="Filter..." />
-    </div>
-
-    <UTable sticky ref="table" v-model:global-filter="globalFilter" :data="data" :columns="columns" />
+  <div class="flex flex-col flex-1 w-full p-4">
+    <UCard>
+      <div class="flex px-4 mt-2 border-b border-accented">
+        <UInput v-model="globalFilter" placeholder="Filter..." />
+      </div>
+      <UTable sticky ref="table" v-model:global-filter="globalFilter" :data="data" :columns="columns" />
+    </UCard>
   </div>
 </template>
